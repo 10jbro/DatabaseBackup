@@ -1,0 +1,2 @@
+# DatabaseBackup
+A program in Java and using JDBC that takes a database and produces a textual “backup” of the contents. This textual backup should consist of SQL statements that will recreate the contents of the original database i.e. CREATE TABLE and INSERT .. INTO instructions. Ideally, you should be able to recreate the original database by using the text files your program produces as input to SQLite. The program must NOT use the system schema tables found in SQLite; any access to schema information uses the appropriate JDBC methods.
